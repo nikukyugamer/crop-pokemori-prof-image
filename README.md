@@ -14,6 +14,10 @@
 $ gem install crop_pokemori_prof_image
 ```
 
+# Required
+- you must install `imagemagick` and `libmagickwand-dev` (for Ubuntu) to use `rmagick` gem
+    - please investigate if you use CentOS or so forth
+
 # Usage
 
 #### 1. prepare the image file(s)
@@ -27,6 +31,7 @@ require 'crop_pokemori_prof_image'
 ```
 
 #### 3. exec method
+- these are class method of `CropPokemoriProfImage` class
 
 ##### 3-1. `crop_single_image` method
 - `crop_single_image` method is for only one image file
@@ -63,6 +68,13 @@ require 'crop_pokemori_prof_image'
         - naming format is `SOURCE_FILENAME_WITHOUT_EXT`_whole_id_part.`EXT`
 
 # Example
+
+#### example code
+```ruby
+require 'crop_pokemori_prof_image'
+
+CropPokemoriProfImage.crop_single_image('sample.jpg')
+```
 
 #### when the source file is `sample.jpg`
 - `sample.jpg` is below
