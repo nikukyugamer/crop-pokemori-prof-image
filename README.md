@@ -17,6 +17,8 @@ $ gem install crop_pokemori_prof_image
 # Required
 - you must install `imagemagick` and `libmagickwand-dev` (for Ubuntu) to use `rmagick` gem
     - please investigate if you use CentOS or so forth
+- if you use macOS, do `$ brew install imagemagick@6`
+    - caution: `rmagick` cannot run if imagemagick@7
 
 # Usage
 
