@@ -71,7 +71,7 @@ require 'crop_pokemori_prof_image'
 
 # Example
 
-#### example code
+#### example code (single file)
 ```ruby
 require 'crop_pokemori_prof_image'
 
@@ -97,6 +97,13 @@ CropPokemoriProfImage.crop_single_image('sample.jpg')
 
 ##### id number with 'ID' notation (sample_whole_id_part.jpg)
 ![sample_whole_id_part.jpg](crop_image/sample_whole_id_part.jpg "sample_whole_id_part.jpg")
+
+#### example code (multiple file)
+```ruby
+require 'crop_pokemori_prof_image'
+
+CropPokemoriProfImage.crop_multiple_image
+```
 
 ## Development
 
