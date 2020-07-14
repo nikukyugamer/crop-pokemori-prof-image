@@ -1,4 +1,4 @@
-[![CircleCI](https://circleci.com/gh/corselia/crop-pokemori-prof-image/tree/master.svg?style=svg)](https://circleci.com/gh/corselia/crop-pokemori-prof-image/tree/master)
+[![CircleCI](https://circleci.com/gh/nikukyugamer/crop-pokemori-prof-image/tree/master.svg?style=svg)](https://circleci.com/gh/nikukyugamer/crop-pokemori-prof-image/tree/master)
 
 # Overview
 - you can crop the profile image of [`Doubutsu-No-Mori Pocket Camp` (Animal Crossing Pocket Camp)](https://ac-pocketcamp.com/)
